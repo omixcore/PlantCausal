@@ -1,0 +1,4214 @@
+{
+  "schemaVersion" : "1.0.0",
+  "schemaValid" : true,
+  "designReviewed" : "NOT_ASSESSED",
+  "analysisReady" : "NOT_ASSESSED",
+  "issues" : [ {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "10M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "10M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "11M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "11M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "12M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "12M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "3M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "3M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "4M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "4M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "5M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "5M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "6M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "6M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "7M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "7M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "8M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "8M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9D10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9D10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "9M10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "9M10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CD10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CD10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "CM10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "CM10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcD10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcD10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HcM10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HcM10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdD10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdD10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HdM10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HdM10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtD10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtD10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM01",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM01",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM02",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM02",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM03",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM03",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM04",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM04",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM05",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM05",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM06",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM06",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM07",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM07",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM08",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM08",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM09",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM09",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CALENDAR_ZERO",
+    "location" : "HtM10",
+    "message" : "Relative origin retained; calendar start unknown"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_CLUSTER",
+    "location" : "HtM10",
+    "message" : "Inference cluster requires design review"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "10M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "11M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "12M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "3M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "4M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "5M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "6M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "7M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "8M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9D10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "9M10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CD10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "CM10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcD10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HcM10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdD10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HdM10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtD10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM01",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM02",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM03",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM04",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM05",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM06",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM07",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM08",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM09",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "EXPOSURE_COVERAGE",
+    "location" : "HtM10",
+    "message" : "Sustained strategy exposure history incomplete"
+  }, {
+    "severity" : "WARNING",
+    "code" : "DESIGN_REVIEW_REQUIRED",
+    "location" : "protocol.json",
+    "message" : "Assess identification, time alignment, clustering, selection, interference and missingness before estimation"
+  } ],
+  "unitCount" : 280,
+  "observationCount" : 1400
+}

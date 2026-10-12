@@ -1,0 +1,54 @@
+{
+  "schemaVersion" : "1.0.0",
+  "schemaValid" : true,
+  "designReviewed" : "NOT_ASSESSED",
+  "analysisReady" : "NOT_ASSESSED",
+  "issues" : [ {
+    "severity" : "WARNING",
+    "code" : "BASELINE_ORDER",
+    "location" : "P1:soil_water:0",
+    "message" : "Confirm measurement preceded first treatment"
+  }, {
+    "severity" : "WARNING",
+    "code" : "BASELINE_ORDER",
+    "location" : "P2:soil_water:0",
+    "message" : "Confirm measurement preceded first treatment"
+  }, {
+    "severity" : "WARNING",
+    "code" : "BASELINE_ORDER",
+    "location" : "P3:soil_water:0",
+    "message" : "Confirm measurement preceded first treatment"
+  }, {
+    "severity" : "WARNING",
+    "code" : "BASELINE_ORDER",
+    "location" : "P4:soil_water:0",
+    "message" : "Confirm measurement preceded first treatment"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_ADHERENCE",
+    "location" : "P1",
+    "message" : "No verified adherence evidence"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_ADHERENCE",
+    "location" : "P2",
+    "message" : "No verified adherence evidence"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_ADHERENCE",
+    "location" : "P3",
+    "message" : "No verified adherence evidence"
+  }, {
+    "severity" : "WARNING",
+    "code" : "UNKNOWN_ADHERENCE",
+    "location" : "P4",
+    "message" : "No verified adherence evidence"
+  }, {
+    "severity" : "WARNING",
+    "code" : "DESIGN_REVIEW_REQUIRED",
+    "location" : "protocol.json",
+    "message" : "Assess identification, time alignment, clustering, selection, interference and missingness before estimation"
+  } ],
+  "unitCount" : 4,
+  "observationCount" : 8
+}

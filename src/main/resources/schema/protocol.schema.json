@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PlantCausal protocol v1.0 draft",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "released"
+      ]
+    },
+    "trial_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data_kind": {
+      "enum": [
+        "synthetic",
+        "public",
+        "private"
+      ]
+    },
+    "target_trial": {
+      "type": "object",
+      "properties": {
+        "population": {
+          "type": "string",
+          "minLength": 1
+        },
+        "eligibility": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assignment_unit": {
+          "enum": [
+            "plant",
+            "pot",
+            "plot",
+            "chamber",
+            "site"
+          ]
+        },
+        "analysis_unit": {
+          "enum": [
+            "plant",
+            "pot",
+            "plot",
+            "chamber",
+            "site"
+          ]
+        },
+        "assignment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_zero": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_unit": {
+          "enum": [
+            "h",
+            "d",
+            "week"
+          ]
+        },
+        "followup_end": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "strategies": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "description"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "outcome": {
+          "type": "object",
+          "properties": {
+            "variable_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "definition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "time": {
+              "type": "number",
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "variable_id",
+            "definition",
+            "time",
+            "unit"
+          ],
+          "additionalProperties": false
+        },
+        "estimand": {
+          "type": "object",
+          "properties": {
+            "population": {
+              "type": "string",
+              "minLength": 1
+            },
+            "contrast": {
+              "type": "string",
+              "minLength": 1
+            },
+            "effect": {
+              "type": "string",
+              "minLength": 1
+            },
+            "strategy_effect": {
+              "type": "string",
+              "minLength": 1
+            },
+            "intercurrent_events": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "population",
+            "contrast",
+            "effect",
+            "strategy_effect",
+            "intercurrent_events"
+          ],
+          "additionalProperties": false
+        },
+        "analysis_plan": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "population",
+        "eligibility",
+        "assignment_unit",
+        "analysis_unit",
+        "assignment",
+        "time_zero",
+        "time_unit",
+        "followup_end",
+        "strategies",
+        "outcome",
+        "estimand",
+        "analysis_plan"
+      ],
+      "additionalProperties": false
+    },
+    "emulation": {
+      "type": "object",
+      "properties": {
+        "design": {
+          "enum": [
+            "observational",
+            "randomized"
+          ]
+        },
+        "eligibility_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assignment_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_zero_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strategy_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outcome_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "followup_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "estimand_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "analysis_mapping": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "design",
+        "eligibility_mapping",
+        "assignment_mapping",
+        "time_zero_mapping",
+        "strategy_mapping",
+        "outcome_mapping",
+        "followup_mapping",
+        "estimand_mapping",
+        "analysis_mapping",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "identification": {
+      "type": "object",
+      "properties": {
+        "exchangeability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "positivity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consistency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "interference": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "exchangeability",
+        "positivity",
+        "consistency",
+        "interference"
+      ],
+      "additionalProperties": false
+    },
+    "missing_data_plan": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_location": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrieved_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transformations": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "source_id",
+        "source_uri",
+        "source_location",
+        "license",
+        "retrieved_at",
+        "transformations"
+      ],
+      "additionalProperties": false
+    },
+    "extensions": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "status",
+    "trial_id",
+    "title",
+    "data_kind",
+    "target_trial",
+    "emulation",
+    "identification",
+    "missing_data_plan",
+    "provenance",
+    "extensions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+variable_id	role	data_type	unit	definition	timing	missing_codes
+transpiration	outcome	number	mgH2O/g_needle_dry_biomass/h	Water loss per dry needle biomass per hour	day10_and_day24	NA
+water_potential	outcome	number	MPa	Needle water potential	day10_and_day24	NA
+emf_group	effect_modifier	string	NA	Pre-existing EMF or soil inoculum exposure group	before_drought_start	NA

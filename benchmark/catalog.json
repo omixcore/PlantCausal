@@ -1,0 +1,111 @@
+{
+  "catalog_version": "0.1.0",
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "benchmark_id": "PC_B001",
+      "dataset_doi": "10.5281/zenodo.10100580",
+      "source_uri": "https://zenodo.org/records/10100580",
+      "creators": [
+        {
+          "name": "de Quesada, Gonzalo",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Xu, Jie",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Salmon, Yann",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Lintunen, Anna",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Poque, Sylvain",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Himanen, Kristiina",
+          "affiliation": "University of Helsinki"
+        },
+        {
+          "name": "Heinonsalo, Jussi",
+          "affiliation": "University of Helsinki"
+        }
+      ],
+      "license": "cc-by-4.0",
+      "retrieved_at": "2026-10-12",
+      "files": [
+        {
+          "file": "benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx",
+          "sha256": "d6604bbb852fee22cf282f1a3f805f3d2a680aad98cd2b88c60bb54a64f454a1",
+          "repository_checksum": "md5:4a27018a1f089539aa10ab7a2251f06e",
+          "bytes": 64008
+        },
+        {
+          "file": "benchmark/raw/10100580/Transpiration_WP_timeseries.xlsx",
+          "sha256": "aa3f3aede3f7445806f77728151dac357356642df4cc8c97b8406b29b98a36a2",
+          "repository_checksum": "md5:e2b4855c0a881707abe131d2a92f2e36",
+          "bytes": 73334
+        }
+      ],
+      "causal_ground_truth": "unknown",
+      "data_kind": "public",
+      "reuse_of_prior_project_data": false,
+      "paper_doi": "10.1093/treephys/tpae029",
+      "status": "mapped_design_review_pending",
+      "unit_count": 280,
+      "observation_count": 1400,
+      "numerical_endpoint_cells_checked": 1120,
+      "standardized_path": "benchmark/standardized/PC_B001",
+      "analysis_ready": false,
+      "limitations": [
+        "Drought allocation randomization unverified",
+        "Calendar zero unknown",
+        "Tray IDs unknown",
+        "Actual exposure/adherence logs unavailable",
+        "Unlinked timeseries not merged"
+      ]
+    },
+    {
+      "benchmark_id": "PC_B002",
+      "dataset_doi": "10.5281/zenodo.4306840",
+      "source_uri": "https://zenodo.org/records/4306840",
+      "creators": [
+        {
+          "name": "Hahn, Claudia",
+          "affiliation": "University of Basel",
+          "orcid": "0000-0002-5728-3529"
+        }
+      ],
+      "license": "cc-by-4.0",
+      "retrieved_at": "2026-10-12",
+      "files": [
+        {
+          "file": "benchmark/raw/4306840/181004_Biomass_2014.xls",
+          "sha256": "a87d0bfa5cd59b0204667aba234306366566376c3811284630e2bc01f8588546",
+          "repository_checksum": "md5:d4ce2e6386a3924d21d240cf72511296",
+          "bytes": 298496
+        }
+      ],
+      "causal_ground_truth": "unknown",
+      "data_kind": "public",
+      "reuse_of_prior_project_data": false,
+      "paper_doi": "10.5194/bg-18-585-2021",
+      "status": "staged_protocol_mapping_pending",
+      "harvest_record_count": 1176,
+      "unique_plot_count": 196,
+      "excluded_placeholder_rows": 24,
+      "staging_path": "benchmark/staging/PC_B002",
+      "analysis_ready": false,
+      "limitations": [
+        "Treatment calendars and control matching not mapped",
+        "Staging retains legume alongside grasses; not identical to article six-grass analysis cohort",
+        "Repeated harvests must not be counted as independent treatment units"
+      ]
+    }
+  ]
+}
