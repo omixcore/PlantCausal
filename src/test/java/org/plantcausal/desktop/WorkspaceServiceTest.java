@@ -47,6 +47,11 @@ class WorkspaceServiceTest {
         await(()->all(app[0]).stream().anyMatch(c->c instanceof JTable t&&t.getColumnCount()==13&&t.getRowCount()==280));
         SwingUtilities.invokeAndWait(()->all(app[0]).stream().filter(c->c instanceof JButton b&&b.getText().equals("Validate")).map(c->(JButton)c).findFirst().orElseThrow().doClick());
         await(()->all(app[0]).stream().anyMatch(c->c instanceof JTable t&&t.getColumnCount()==4&&t.getRowCount()==841));
+        SwingUtilities.invokeAndWait(()->{
+            JLabel label=all(app[0]).stream().filter(c->c instanceof JLabel l&&l.getText().equals("Follow-up end (relative time)")).map(c->(JLabel)c).findFirst().orElseThrow();
+            for(Component c:label.getParent().getComponents())if(c instanceof JTextArea field)field.setText("30");
+            try{var node=PackageReader.JSON.readTree(app[0].draft());assertTrue(node.at("/target_trial/followup_end").isNumber());assertEquals(30,node.at("/target_trial/followup_end").asInt());assertEquals(24,node.at("/target_trial/outcome/time").asInt());assertTrue(node.has("extensions"));}catch(Exception ex){throw new RuntimeException(ex);}
+        });
     }
     private static java.util.List<Component> all(Container root){java.util.List<Component> result=new java.util.ArrayList<>();for(Component c:root.getComponents()){result.add(c);if(c instanceof Container)result.addAll(all((Container)c));}return result;}
     private static void await(java.util.function.BooleanSupplier condition) throws Exception {
