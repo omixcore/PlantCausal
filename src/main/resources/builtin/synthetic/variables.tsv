@@ -1,0 +1,3 @@
+variable_id	role	data_type	unit	definition	timing	missing_codes
+soil_water	baseline_confounder	number	%	基线土壤含水量	before_first_treatment	NA
+yield	outcome	number	kg/m2	地块籽粒产量	day90	NA

@@ -2,28 +2,48 @@
 
 A causal inference framework for plant multi-omics using target trial emulation, causal discovery, and virtual intervention analysis.
 
-## Current implementation: Core 0.1.0
+## Current implementation: Desktop 0.2.0
 
-Java 17 数据模型、校验服务与首批公开数据 benchmark。以 PlantCausal Data Standard v1.0.0 草案为基础；本版本专注数据质量与设计审计，不输出因果效应。
+Java 17 桌面界面、数据模型、校验服务与首批公开数据 benchmark。以 PlantCausal Data Standard v1.0.0 草案为基础；本版本专注数据质量与设计审计，不输出因果效应。
 
-## 在 IntelliJ IDEA 中运行
+## 在 IntelliJ IDEA 中打开界面
 
-1. 解压后，选择 Open，打开本目录的 `pom.xml`，作为 Maven 项目导入。
-2. Project SDK 设置为 JDK 17 或更高版本；Maven 编译目标固定为 Java 17。
-3. 运行 `org.plantcausal.core.Main`，Program arguments 填写 `validate examples/synthetic`。
-4. Working directory 设置为此项目根目录。
-5. 运行真实数据时，参数改为 `validate benchmark/standardized/PC_B001`。
+1. 克隆 https://github.com/omixcore/PlantCausal.git，打开根目录 pom.xml，作为 Maven 项目导入。
+2. Project SDK 设置为 JDK 17 或更高；等待 Maven 下载依赖。
+3. 打开 src/main/java/org/plantcausal/core/Main.java，直接运行 main，不填写 Program arguments，即打开桌面界面。填写 gui 也可以。
+4. 点击 Load demo 或 Load public data，界面会直接显示表格。
 
-首次 Maven 导入需要网络下载依赖。构建后的 `target/plantcausal-core-0.1.0.jar` 可直接用 Java 17 运行。GitHub Actions 会构建并提供 JAR 下载。
+界面采用 Java Swing，支持 Windows/macOS/Linux 的图形桌面，无需安装 JavaFX。
+
+| 页面 | 功能 |
+|---|---|
+| Overview | 打开项目、内置合成示例和公开松树数据 |
+| Protocol | 常用字段表单编辑、完整 JSON 编辑、协议保存 |
+| Data preview | 五种 TSV 表格预览、筛选与重新载入 |
+| Validation | 错误与警告表、单位和观测统计、JSON 报告导出 |
+| Benchmarks | 两项公开研究数据、DOI、许可及设计限制；草地 staging 预览 |
+
+Open project 选择含 protocol.json 和数据表的文件夹。内置示例加载到独立临时目录，使用 Save project as 保存到空文件夹以保留修改。表格当前只读；协议可编辑，TSV 可在外部编辑后 Reload。表格预览最多2000行，完整数据仍由核心校验器校验。
+
+后台线程执行导入与校验，处理期间按钮和协议编辑被禁用。未保存协议时不能校验；切换项目或关闭窗口前会提示未保存修改。导出报告会核对输入文件 SHA-256，拒绝导出已经过期的报告。
+
+## 构建和启动
 
 ```sh
-mvn test
-mvn package
-java -jar target/plantcausal-core-0.1.0.jar validate examples/synthetic
-java -jar target/plantcausal-core-0.1.0.jar validate benchmark/standardized/PC_B001
+mvn verify
+java -jar target/plantcausal-core-0.2.0.jar
 ```
 
-CLI 将报告打印为 JSON。退出码：0=格式与关系校验通过（可有警告），1=校验不通过，2=用法错误。导入/下载异常退出非零。`unitCount` 仅为记录数，不代表独立重复数。
+Windows 用户可以运行 start-PlantCausal.bat；脚本使用本地构建 JAR 或调用 Maven 构建，要求 Java 17。GitHub Actions 构建产物包括可执行 JAR；下载并解压后可用上述 java -jar 命令打开窗口。内置数据已在 JAR 中，无需依赖当前工作目录。
+
+原命令行继续支持：
+
+```sh
+java -jar target/plantcausal-core-0.2.0.jar validate examples/synthetic
+java -jar target/plantcausal-core-0.2.0.jar validate benchmark/standardized/PC_B001
+```
+
+CLI 将报告打印为 JSON。退出码：0=格式与关系校验通过（可有警告），1=校验不通过，2=用法错误。unitCount 仅为记录数，不代表独立重复数。无图形环境请使用 CLI。
 
 ## 软件结构与接口
 
@@ -34,7 +54,9 @@ CLI 将报告打印为 JSON。退出码：0=格式与关系校验通过（可有
 | ValidationService | 内置 JSON Schema 2020-12、关系与时间规则校验；可直接嵌入 GUI/服务 |
 | BenchmarkFetcher | 从 Zenodo 下载指定版本元数据与文件，验证仓库校验和与许可证 |
 | BenchmarkImporter | 对已审核源文件进行 SHA-256 固定的 Java Excel 转换 |
-| Main | 命令行入口 |
+| DesktopApp | 五个页面的 Java Swing 桌面界面 |
+| WorkspaceService | 内置示例、项目另存、协议保存、预览与报告导出 |
+| Main | 默认桌面启动，保留命令行入口 |
 
 ```java
 var report = new ValidationService().validate(java.nio.file.Path.of("benchmark/standardized/PC_B001"));
@@ -62,9 +84,9 @@ Protocol 用 typed records 保存核心协议，同时保留完整 JsonNode 以�
 ## 重建数据
 
 ```sh
-java -jar target/plantcausal-core-0.1.0.jar fetch-benchmark benchmark/raw
-java -jar target/plantcausal-core-0.1.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx benchmark/standardized/PC_B001
-java -jar target/plantcausal-core-0.1.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls benchmark/staging/PC_B002
+java -jar target/plantcausal-core-0.2.0.jar fetch-benchmark benchmark/raw
+java -jar target/plantcausal-core-0.2.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx benchmark/standardized/PC_B001
+java -jar target/plantcausal-core-0.2.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls benchmark/staging/PC_B002
 ```
 
 源文件内容更改后，固定 SHA-256 的转换器拒绝处理，必须重新评审并更新适配器。抓取服务验证当前仓库 MD5，适配器再验证固定 SHA-256。首次发布随包源文件已独立下载并验证；Java 在线抓取需要用户环境网络，本次主要验证离线转换与校验。

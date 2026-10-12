@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "trial_id": "SYNTHETIC_001",
+  "title": "合成格式示例：灌溉策略与地块产量",
+  "data_kind": "synthetic",
+  "target_trial": {
+    "population": "同一物种与品种、相同生育阶段的地块",
+    "eligibility": "处理开始前地块已建植；筛选仅使用时间零点及以前的信息",
+    "assignment_unit": "plot",
+    "analysis_unit": "plot",
+    "assignment": "在区组内随机分配两种灌溉策略",
+    "time_zero": "满足资格并分配处理的日期；随访与处理同时开始",
+    "time_unit": "d",
+    "followup_end": 90,
+    "strategies": [
+      {
+        "id": "A",
+        "description": "从第0至90天维持协议定义的充分灌溉"
+      },
+      {
+        "id": "B",
+        "description": "从第0至90天维持协议定义的限制灌溉"
+      }
+    ],
+    "outcome": {
+      "variable_id": "yield",
+      "definition": "第90天收获的地块籽粒干重除以收获面积",
+      "time": 90,
+      "unit": "kg/m2"
+    },
+    "estimand": {
+      "population": "所有符合资格的地块",
+      "contrast": "A-B",
+      "effect": "mean_difference",
+      "strategy_effect": "sustained_strategy",
+      "intercurrent_events": "植株死亡保留在地块产量；整块失访按预设缺失方案处理"
+    },
+    "analysis_plan": "以地块为独立单位；调整区组与基线土壤含水量；估计均值差与95%置信区间；实施敏感性分析"
+  },
+  "emulation": {
+    "design": "observational",
+    "eligibility_mapping": "units.tsv eligible；仅使用处理前记录",
+    "assignment_mapping": "units.tsv strategy_id 是观察分类，不是随机分配",
+    "time_zero_mapping": "units.tsv time_zero；0时观测先于首次处理",
+    "strategy_mapping": "需核对实际灌溉记录；本合成示例仅演示表结构",
+    "outcome_mapping": "observations.tsv variable_id=yield,time=90",
+    "followup_mapping": "第0天至90天；提前失访需记录原因",
+    "estimand_mapping": "拟估计持续策略效果；仅有基线分类不足以支持依从性分析",
+    "analysis_mapping": "本例不执行估计；真实数据须确认纵向处理记录与混杂信息",
+    "limitations": [
+      "合成示例不具备科学推断用途"
+    ]
+  },
+  "identification": {
+    "exchangeability": "需评估基线与随时间变化的共同原因是否被测量",
+    "positivity": "在混杂变量各层检查两策略支持与权重分布",
+    "consistency": "明确剂量、持续时间与允许的策略版本",
+    "interference": "评估地块间水分流动；必要时定义缓冲区与暴露映射"
+  },
+  "missing_data_plan": "区分未测量、失访、检测限；不默认填0",
+  "provenance": {
+    "source_id": "SYNTHETIC",
+    "source_uri": "synthetic://format-example",
+    "source_location": "generated",
+    "license": "CC0-1.0",
+    "retrieved_at": "2026-10-12",
+    "transformations": "人工构造四个地块；无历史研究数据"
+  },
+  "extensions": {}
+}

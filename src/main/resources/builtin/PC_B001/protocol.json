@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "trial_id": "PC_B001",
+  "title": "Scots pine drought/recovery: public-data mapping benchmark",
+  "data_kind": "public",
+  "target_trial": {
+    "population": "One-year nursery Scots pine seedlings after pre-existing inoculum exposure",
+    "eligibility": "Alive potted seedlings eligible at drought start; no outcome-based exclusion",
+    "assignment_unit": "pot",
+    "analysis_unit": "pot",
+    "assignment": "Hypothetical random allocation to drought versus normal irrigation within prior inoculum strata",
+    "time_zero": "Start of water withholding; conceptual relative origin, calendar date unavailable",
+    "time_unit": "d",
+    "followup_end": 24,
+    "strategies": [
+      {
+        "id": "D",
+        "description": "Withhold watering for 10 days then resume for 14 days"
+      },
+      {
+        "id": "M",
+        "description": "Irrigate to field capacity three times per week for 24 days"
+      }
+    ],
+    "outcome": {
+      "variable_id": "transpiration",
+      "definition": "Day-24 transpiration normalized by needle dry biomass",
+      "time": 24,
+      "unit": "mgH2O/g_needle_dry_biomass/h"
+    },
+    "estimand": {
+      "population": "Drought-experiment eligible potted seedlings across prior inoculum groups",
+      "contrast": "D-M",
+      "effect": "mean_difference",
+      "strategy_effect": "sustained_strategy",
+      "intercurrent_events": "Retain all eligible pots; document death and missing outcomes, no post-treatment survival filtering"
+    },
+    "analysis_plan": "Proposed stratified mean contrast; estimator requires allocation and tray-cluster review. No causal estimate produced here."
+  },
+  "emulation": {
+    "design": "observational",
+    "eligibility_mapping": "Measurements rows represent 280 included seedlings; selection from original cohort is described in methods",
+    "assignment_mapping": "treat D/M is known experimental classification; random selection of seedlings does not verify random drought allocation",
+    "time_zero_mapping": "Relative drought-start origin; day10 and day24 columns; units.time_zero=NA explicitly records unavailable calendar date",
+    "strategy_mapping": "Published regimen known; individual watering/adherence logs unavailable; treatments table intentionally empty",
+    "outcome_mapping": "Measurements.trans_24_bio; additional day10 and water potential observations included",
+    "followup_mapping": "Methods define 10-day drought and 14-day recovery; individual loss-event records unavailable",
+    "estimand_mapping": "Proposed D-M sustained strategy contrast; not an identified causal benchmark",
+    "analysis_mapping": "Import and validation only; no effect estimator or ground-truth causal effect",
+    "limitations": [
+      "Unverified random drought allocation",
+      "Tray grouping not recorded in workbook",
+      "Time-series sheets lack shared individual IDs",
+      "Calendar start and individual watering logs unavailable",
+      "Dry needle biomass normalization is part of outcome definition, not a baseline covariate"
+    ]
+  },
+  "identification": {
+    "exchangeability": "Drought allocation needs verification; assess pre-existing inoculum strata and seedling selection",
+    "positivity": "Each prior inoculum group has both D and M in the workbook; model-based overlap still unassessed",
+    "consistency": "Map prescribed withholding/recovery regimen; verify adherence before sustained-effect estimation",
+    "interference": "Tray sharing and greenhouse environment may induce correlation; tray IDs unavailable"
+  },
+  "missing_data_plan": "Blank source endpoint cells become NA/unknown; no undocumented cause of missingness is inferred",
+  "provenance": {
+    "source_id": "ZENODO_10100580",
+    "source_uri": "https://zenodo.org/records/10100580",
+    "source_location": "Mycorrhiza_exposure_drought.xlsx, Measurements and Readme; manuscript methods DOI 10.1093/treephys/tpae029",
+    "license": "CC-BY-4.0",
+    "retrieved_at": "2026-10-12",
+    "transformations": "Retain source code; one seedling per pot, pot ID aliases individual code; trim category whitespace; convert four specified endpoint columns and prior inoculum category to long form; leave unknown calendar, genotype, cluster and exposure logs missing"
+  },
+  "extensions": {
+    "benchmark_id": "PC_B001",
+    "benchmark_status": "mapped_design_review_pending",
+    "observed_design": "controlled_experiment_drought_allocation_unverified",
+    "sha256": "d6604bbb852fee22cf282f1a3f805f3d2a680aad98cd2b88c60bb54a64f454a1",
+    "paper_doi": "10.1093/treephys/tpae029",
+    "primary_source_methods": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10990620/fullTextXML",
+    "unit_alias": "original plant code represents its single-plant pot"
+  }
+}

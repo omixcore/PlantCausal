@@ -18,13 +18,13 @@ jobs:
         run: mvn --batch-mode --no-transfer-progress verify
       - name: Validate executable and public data import
         run: |
-          java -jar target/plantcausal-core-0.1.0.jar validate examples/synthetic
-          java -jar target/plantcausal-core-0.1.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx "$RUNNER_TEMP/pine"
-          java -jar target/plantcausal-core-0.1.0.jar validate "$RUNNER_TEMP/pine"
-          java -jar target/plantcausal-core-0.1.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls "$RUNNER_TEMP/grass"
+          java -jar target/plantcausal-core-0.2.0.jar validate examples/synthetic
+          java -jar target/plantcausal-core-0.2.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx "$RUNNER_TEMP/pine"
+          java -jar target/plantcausal-core-0.2.0.jar validate "$RUNNER_TEMP/pine"
+          java -jar target/plantcausal-core-0.2.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls "$RUNNER_TEMP/grass"
       - uses: actions/upload-artifact@v4
         with:
           name: plantcausal-core-java17
           path: |
-            target/plantcausal-core-0.1.0.jar
+            target/plantcausal-core-0.2.0.jar
             target/surefire-reports/

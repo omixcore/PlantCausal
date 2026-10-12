@@ -5,53 +5,62 @@
 │  │  ├─ alteredSourceRejectedBeforeImport() ✔
 │  │  ├─ pineImportReconcilesEveryEndpointAndPreservesMissingness() ✔
 │  │  └─ grassImportPreservesRowsAndMissingValues() ✔
-│  └─ ValidationServiceTest ✔
-│     ├─ duplicateJsonKeysRejected() ✔
-│     ├─ parserRejectsDuplicateHeaderAndShortRow() ✔
-│     ├─ emptyExposureHistoryWarnsWithoutInventingAdherence() ✔
-│     ├─ rejectsInvalidFields(String, String, String, String) ✔
-│     │  ├─ [1] observations.tsv, unit_id, UNKNOWN, OBS_UNIT_FK ✔
-│     │  ├─ [2] observations.tsv, variable_id, UNKNOWN, OBS_VARIABLE_FK ✔
-│     │  ├─ [3] observations.tsv, time, 1, POST_BASELINE ✔
-│     │  ├─ [4] observations.tsv, value, NaN, VALUE_TYPE ✔
-│     │  ├─ [5] observations.tsv, value, Infinity, VALUE_TYPE ✔
-│     │  ├─ [6] observations.tsv, value, NA, MISSING_REASON ✔
-│     │  ├─ [7] observations.tsv, source_id, UNKNOWN, SOURCE_FK ✔
-│     │  ├─ [8] observations.tsv, trial_id, UNKNOWN, TRIAL_ID ✔
-│     │  ├─ [9] units.tsv, parent_unit_id, P1, PARENT_CYCLE ✔
-│     │  ├─ [10] units.tsv, parent_unit_id, UNKNOWN, PARENT_FK ✔
-│     │  ├─ [11] units.tsv, assignment_unit_id, UNKNOWN, ASSIGNMENT_FK ✔
-│     │  ├─ [12] units.tsv, unit_type, pot, ASSIGNMENT_LEVEL ✔
-│     │  ├─ [13] units.tsv, strategy_id, UNKNOWN, STRATEGY_FK ✔
-│     │  ├─ [14] units.tsv, time_zero, 2026-02-30, TIME_ZERO ✔
-│     │  ├─ [15] variables.tsv, role, confounder, VARIABLE_ROLE ✔
-│     │  ├─ [16] variables.tsv, unit, NA, VARIABLE_UNIT ✔
-│     │  ├─ [17] variables.tsv, data_type, float, VARIABLE_TYPE ✔
-│     │  ├─ [18] treatments.tsv, start, -1, INTERVAL ✔
-│     │  ├─ [19] treatments.tsv, stop, 0, INTERVAL ✔
-│     │  ├─ [20] treatments.tsv, stop, 91, INTERVAL ✔
-│     │  ├─ [21] treatments.tsv, dose, 3, DOSE_UNIT ✔
-│     │  └─ [22] treatments.tsv, adherence, yes, ADHERENCE ✔
-│     ├─ schemaRejectsUnknownProtocolAndMissingRequiredField() ✔
-│     ├─ duplicateRowsAndOverlapsRejected() ✔
-│     ├─ missingFilesYieldReportInsteadOfCrash() ✔
-│     ├─ missingEndpointIsError() ✔
-│     ├─ tsvQuotesAreParsedAndReportIsDeterministic() ✔
-│     └─ validPackageNeverClaimsCausality() ✔
+│  ├─ ValidationServiceTest ✔
+│  │  ├─ duplicateJsonKeysRejected() ✔
+│  │  ├─ parserRejectsDuplicateHeaderAndShortRow() ✔
+│  │  ├─ emptyExposureHistoryWarnsWithoutInventingAdherence() ✔
+│  │  ├─ rejectsInvalidFields(String, String, String, String) ✔
+│  │  │  ├─ [1] observations.tsv, unit_id, UNKNOWN, OBS_UNIT_FK ✔
+│  │  │  ├─ [2] observations.tsv, variable_id, UNKNOWN, OBS_VARIABLE_FK ✔
+│  │  │  ├─ [3] observations.tsv, time, 1, POST_BASELINE ✔
+│  │  │  ├─ [4] observations.tsv, value, NaN, VALUE_TYPE ✔
+│  │  │  ├─ [5] observations.tsv, value, Infinity, VALUE_TYPE ✔
+│  │  │  ├─ [6] observations.tsv, value, NA, MISSING_REASON ✔
+│  │  │  ├─ [7] observations.tsv, source_id, UNKNOWN, SOURCE_FK ✔
+│  │  │  ├─ [8] observations.tsv, trial_id, UNKNOWN, TRIAL_ID ✔
+│  │  │  ├─ [9] units.tsv, parent_unit_id, P1, PARENT_CYCLE ✔
+│  │  │  ├─ [10] units.tsv, parent_unit_id, UNKNOWN, PARENT_FK ✔
+│  │  │  ├─ [11] units.tsv, assignment_unit_id, UNKNOWN, ASSIGNMENT_FK ✔
+│  │  │  ├─ [12] units.tsv, unit_type, pot, ASSIGNMENT_LEVEL ✔
+│  │  │  ├─ [13] units.tsv, strategy_id, UNKNOWN, STRATEGY_FK ✔
+│  │  │  ├─ [14] units.tsv, time_zero, 2026-02-30, TIME_ZERO ✔
+│  │  │  ├─ [15] variables.tsv, role, confounder, VARIABLE_ROLE ✔
+│  │  │  ├─ [16] variables.tsv, unit, NA, VARIABLE_UNIT ✔
+│  │  │  ├─ [17] variables.tsv, data_type, float, VARIABLE_TYPE ✔
+│  │  │  ├─ [18] treatments.tsv, start, -1, INTERVAL ✔
+│  │  │  ├─ [19] treatments.tsv, stop, 0, INTERVAL ✔
+│  │  │  ├─ [20] treatments.tsv, stop, 91, INTERVAL ✔
+│  │  │  ├─ [21] treatments.tsv, dose, 3, DOSE_UNIT ✔
+│  │  │  └─ [22] treatments.tsv, adherence, yes, ADHERENCE ✔
+│  │  ├─ schemaRejectsUnknownProtocolAndMissingRequiredField() ✔
+│  │  ├─ duplicateRowsAndOverlapsRejected() ✔
+│  │  ├─ missingFilesYieldReportInsteadOfCrash() ✔
+│  │  ├─ missingEndpointIsError() ✔
+│  │  ├─ tsvQuotesAreParsedAndReportIsDeterministic() ✔
+│  │  └─ validPackageNeverClaimsCausality() ✔
+│  └─ WorkspaceServiceTest ✔
+│     ├─ desktopCanRenderInHeadlessTests() ✔
+│     ├─ saveValidProtocolPreservesExtensionsAndUnknownFieldsAreRejected() ✔
+│     ├─ reportsRejectChangesToValidatedInput() ✔
+│     ├─ builtinsWorkOutsideRepositoryWorkingDirectory() ✔
+│     ├─ previewsHaveExplicitLimitAndKeepMissingValues() ✔
+│     ├─ guiLoadsPublicDemoAndUsesCoreValidation() ✔
+│     ├─ invalidDraftDoesNotCreateProjectCopy() ✔
+│     └─ projectCopyNeverOverwritesExistingContents() ✔
 └─ JUnit Vintage ✔
 
-Test run finished after 1814 ms
-[         6 containers found      ]
+Test run finished after 2185 ms
+[         7 containers found      ]
 [         0 containers skipped    ]
-[         6 containers started    ]
+[         7 containers started    ]
 [         0 containers aborted    ]
-[         6 containers successful ]
+[         7 containers successful ]
 [         0 containers failed     ]
-[        34 tests found           ]
+[        42 tests found           ]
 [         0 tests skipped         ]
-[        34 tests started         ]
+[        42 tests started         ]
 [         0 tests aborted         ]
-[        34 tests successful      ]
+[        42 tests successful      ]
 [         0 tests failed          ]
 
 

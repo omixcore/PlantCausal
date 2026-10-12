@@ -1,0 +1,9 @@
+trial_id	unit_id	time	variable_id	value	missing_reason	sample_id	technical_replicate_id	source_id	source_location
+SYNTHETIC_001	P1	0	soil_water	21	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P1	90	yield	0.51	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P2	0	soil_water	22	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P2	90	yield	0.52	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P3	0	soil_water	23	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P3	90	yield	0.53	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P4	0	soil_water	24	NA	NA	NA	SYNTHETIC	generated
+SYNTHETIC_001	P4	90	yield	0.54	NA	NA	NA	SYNTHETIC	generated

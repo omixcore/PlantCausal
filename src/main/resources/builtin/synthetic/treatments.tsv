@@ -1,0 +1,5 @@
+trial_id	assignment_unit_id	start	stop	strategy_id	exposure_name	dose	dose_unit	adherence	source_id
+SYNTHETIC_001	P1	0	90	A	synthetic_irrigation	NA	NA	unknown	SYNTHETIC
+SYNTHETIC_001	P2	0	90	B	synthetic_irrigation	NA	NA	unknown	SYNTHETIC
+SYNTHETIC_001	P3	0	90	A	synthetic_irrigation	NA	NA	unknown	SYNTHETIC
+SYNTHETIC_001	P4	0	90	B	synthetic_irrigation	NA	NA	unknown	SYNTHETIC

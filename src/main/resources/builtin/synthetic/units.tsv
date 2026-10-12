@@ -1,0 +1,5 @@
+trial_id	unit_id	parent_unit_id	unit_type	assignment_unit_id	cluster_id	block_id	species	genotype	time_zero	eligible	strategy_id	source_id
+SYNTHETIC_001	P1	NA	plot	P1	P1	B1	Oryza sativa	SYNTHETIC_CULTIVAR	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_001	P2	NA	plot	P2	P2	B1	Oryza sativa	SYNTHETIC_CULTIVAR	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_001	P3	NA	plot	P3	P3	B2	Oryza sativa	SYNTHETIC_CULTIVAR	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_001	P4	NA	plot	P4	P4	B2	Oryza sativa	SYNTHETIC_CULTIVAR	2026-01-01	1	B	SYNTHETIC
