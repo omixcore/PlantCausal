@@ -27,7 +27,7 @@ jobs:
         run: |
           rsync -a --delete \
             --exclude='.git/' \
-            --exclude='.github/workflows/sync-latest-development.yml' \
+            --exclude='.github/workflows/' \
             /tmp/plantcausal-development/ ./
 
       - name: Set up Java 17
