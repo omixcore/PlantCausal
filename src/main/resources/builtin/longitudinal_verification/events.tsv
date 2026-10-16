@@ -1,0 +1,548 @@
+trial_id	unit_id	time	event_type	reason	source_id
+SYNTHETIC_LONGITUDINAL_500	U0001	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0003	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0004	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0004	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0005	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0005	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0007	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0008	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0009	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0012	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0013	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0015	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0016	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0016	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0017	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0018	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0018	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0019	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0020	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0020	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0022	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0022	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0025	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0028	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0028	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0028	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0029	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0030	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0031	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0032	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0032	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0033	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0038	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0039	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0039	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0040	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0041	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0041	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0042	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0043	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0044	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0046	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0048	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0048	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0049	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0049	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0050	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0051	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0051	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0052	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0053	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0053	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0053	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0054	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0054	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0055	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0056	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0056	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0057	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0058	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0059	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0059	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0060	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0060	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0062	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0062	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0063	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0064	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0065	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0065	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0066	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0067	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0068	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0070	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0071	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0072	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0072	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0073	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0074	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0075	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0076	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0076	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0076	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0077	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0079	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0079	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0081	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0083	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0084	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0084	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0084	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0085	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0087	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0090	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0091	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0091	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0094	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0095	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0096	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0097	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0098	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0098	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0099	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0099	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0100	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0101	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0103	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0104	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0104	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0104	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0105	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0107	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0107	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0111	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0111	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0112	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0113	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0114	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0115	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0116	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0116	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0117	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0118	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0120	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0121	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0124	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0124	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0125	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0126	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0127	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0127	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0128	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0128	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0129	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0132	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0135	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0139	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0139	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0140	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0140	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0141	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0142	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0142	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0144	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0145	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0145	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0146	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0147	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0148	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0149	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0149	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0151	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0152	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0152	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0153	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0156	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0156	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0157	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0158	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0158	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0160	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0161	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0162	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0163	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0163	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0165	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0165	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0166	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0167	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0168	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0168	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0169	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0169	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0169	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0170	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0171	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0173	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0173	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0174	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0174	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0175	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0176	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0177	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0179	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0180	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0181	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0183	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0183	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0183	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0185	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0186	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0187	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0188	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0188	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0189	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0189	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0191	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0191	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0192	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0193	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0194	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0194	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0196	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0196	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0197	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0197	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0198	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0199	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0199	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0200	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0201	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0204	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0204	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0206	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0206	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0207	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0208	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0209	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0212	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0213	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0213	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0214	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0214	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0216	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0217	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0218	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0219	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0220	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0221	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0221	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0222	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0223	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0224	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0225	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0226	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0226	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0227	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0228	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0228	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0229	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0229	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0229	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0230	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0231	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0232	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0233	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0233	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0235	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0235	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0236	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0236	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0237	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0238	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0240	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0243	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0243	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0244	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0245	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0246	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0248	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0248	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0249	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0249	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0251	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0252	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0252	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0253	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0253	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0253	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0254	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0255	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0256	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0257	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0257	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0260	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0260	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0261	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0262	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0263	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0264	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0264	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0265	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0266	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0266	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0266	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0267	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0268	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0268	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0269	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0270	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0271	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0271	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0272	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0273	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0276	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0277	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0277	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0278	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0279	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0279	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0280	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0281	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0281	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0282	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0284	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0284	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0286	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0286	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0287	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0288	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0290	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0290	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0291	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0291	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0292	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0293	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0294	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0295	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0297	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0297	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0298	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0298	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0299	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0299	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0301	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0302	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0302	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0303	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0304	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0304	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0305	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0305	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0305	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0306	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0306	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0307	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0308	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0309	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0311	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0312	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0313	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0313	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0314	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0314	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0314	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0315	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0317	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0320	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0321	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0321	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0322	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0322	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0323	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0324	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0326	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0327	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0328	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0328	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0328	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0329	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0332	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0333	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0336	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0338	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0339	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0340	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0340	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0341	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0342	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0344	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0345	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0348	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0348	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0349	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0353	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0354	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0354	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0355	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0356	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0358	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0359	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0359	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0360	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0361	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0361	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0362	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0362	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0364	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0365	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0365	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0367	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0368	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0368	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0369	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0370	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0371	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0372	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0373	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0374	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0374	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0374	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0375	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0376	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0376	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0376	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0377	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0378	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0378	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0379	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0380	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0381	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0382	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0383	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0383	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0383	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0384	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0384	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0385	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0385	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0386	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0387	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0388	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0388	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0389	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0389	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0390	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0390	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0391	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0392	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0392	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0394	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0394	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0396	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0398	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0398	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0399	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0401	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0402	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0402	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0403	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0403	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0404	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0404	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0405	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0406	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0408	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0409	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0409	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0410	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0411	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0411	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0412	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0412	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0412	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0413	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0413	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0413	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0415	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0415	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0416	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0416	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0417	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0418	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0418	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0419	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0420	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0420	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0422	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0425	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0426	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0427	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0427	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0428	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0428	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0429	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0430	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0431	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0432	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0432	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0434	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0434	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0436	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0438	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0439	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0439	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0440	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0441	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0443	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0444	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0444	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0444	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0445	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0447	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0448	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0448	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0449	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0451	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0452	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0452	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0452	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0453	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0453	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0456	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0457	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0457	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0458	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0458	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0459	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0460	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0461	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0461	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0464	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0465	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0466	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0470	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0473	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0474	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0474	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0475	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0477	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0478	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0479	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0479	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0480	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0480	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0481	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0482	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0483	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0484	90	loss_to_followup	generated endpoint non-observation	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0485	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0486	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0487	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0487	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0489	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0490	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0491	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0492	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0493	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0494	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0494	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0495	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0495	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0496	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0498	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0499	30	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0499	60	strategy_switch	generated verified strategy change	SYNTHETIC
+SYNTHETIC_LONGITUDINAL_500	U0500	60	strategy_switch	generated verified strategy change	SYNTHETIC

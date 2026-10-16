@@ -1,0 +1,7 @@
+{
+  "trial_id": "PC-DEMO-MAIZE-SALT-001",
+  "species": "Zea mays",
+  "intervention": "NaCl stress",
+  "design": "controlled experiment",
+  "outcome": "plant phenotype"
+}

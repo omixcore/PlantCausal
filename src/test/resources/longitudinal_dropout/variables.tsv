@@ -1,0 +1,4 @@
+variable_id	role	data_type	unit	definition	timing	missing_codes
+baseline_z	baseline_confounder	number	arbitrary	Generated baseline covariate	before_first_treatment	NA
+history_l	time_varying_confounder	number	arbitrary	Generated pre-decision state	before_each_treatment	NA
+response	outcome	number	arbitrary	Generated endpoint	day90	NA

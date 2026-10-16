@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="42" skipped="0" failures="0" errors="0" time="2.123" hostname="a9ed3f75fbb3" timestamp="2026-10-12T22:27:10">
+<testsuite name="JUnit Jupiter" tests="42" skipped="0" failures="0" errors="0" time="2.477" hostname="a9ed3f75fbb3" timestamp="2026-10-12T22:30:44">
 <properties>
 <property name="file.encoding" value="UTF-8"/>
 <property name="file.separator" value="/"/>
@@ -56,25 +56,25 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: [8] observations.tsv, trial_id, UNKNOWN, TRIAL_ID
 ]]></system-out>
 </testcase>
-<testcase name="pineImportReconcilesEveryEndpointAndPreservesMissingness()" classname="org.plantcausal.core.BenchmarkImporterTest" time="1.102">
+<testcase name="pineImportReconcilesEveryEndpointAndPreservesMissingness()" classname="org.plantcausal.core.BenchmarkImporterTest" time="1.34">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.BenchmarkImporterTest]/[method:pineImportReconcilesEveryEndpointAndPreservesMissingness()]
 display-name: pineImportReconcilesEveryEndpointAndPreservesMissingness()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[7]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
+<testcase name="rejectsInvalidFields(String, String, String, String)[7]" classname="org.plantcausal.core.ValidationServiceTest" time="0.005">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#7]
 display-name: [7] observations.tsv, source_id, UNKNOWN, SOURCE_FK
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[6]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
+<testcase name="rejectsInvalidFields(String, String, String, String)[6]" classname="org.plantcausal.core.ValidationServiceTest" time="0.005">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#6]
 display-name: [6] observations.tsv, value, NA, MISSING_REASON
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[5]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
+<testcase name="rejectsInvalidFields(String, String, String, String)[5]" classname="org.plantcausal.core.ValidationServiceTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#5]
 display-name: [5] observations.tsv, value, Infinity, VALUE_TYPE
@@ -92,43 +92,43 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: missingEndpointIsError()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[3]" classname="org.plantcausal.core.ValidationServiceTest" time="0.005">
+<testcase name="rejectsInvalidFields(String, String, String, String)[3]" classname="org.plantcausal.core.ValidationServiceTest" time="0.009">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#3]
 display-name: [3] observations.tsv, time, 1, POST_BASELINE
 ]]></system-out>
 </testcase>
-<testcase name="desktopCanRenderInHeadlessTests()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.203">
+<testcase name="desktopCanRenderInHeadlessTests()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.236">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:desktopCanRenderInHeadlessTests()]
 display-name: desktopCanRenderInHeadlessTests()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[2]" classname="org.plantcausal.core.ValidationServiceTest" time="0.005">
+<testcase name="rejectsInvalidFields(String, String, String, String)[2]" classname="org.plantcausal.core.ValidationServiceTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#2]
 display-name: [2] observations.tsv, variable_id, UNKNOWN, OBS_VARIABLE_FK
 ]]></system-out>
 </testcase>
-<testcase name="reportsRejectChangesToValidatedInput()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.03">
+<testcase name="reportsRejectChangesToValidatedInput()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.033">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:reportsRejectChangesToValidatedInput()]
 display-name: reportsRejectChangesToValidatedInput()
 ]]></system-out>
 </testcase>
-<testcase name="missingFilesYieldReportInsteadOfCrash()" classname="org.plantcausal.core.ValidationServiceTest" time="0.001">
+<testcase name="missingFilesYieldReportInsteadOfCrash()" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[method:missingFilesYieldReportInsteadOfCrash()]
 display-name: missingFilesYieldReportInsteadOfCrash()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[1]" classname="org.plantcausal.core.ValidationServiceTest" time="0.009">
+<testcase name="rejectsInvalidFields(String, String, String, String)[1]" classname="org.plantcausal.core.ValidationServiceTest" time="0.014">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#1]
 display-name: [1] observations.tsv, unit_id, UNKNOWN, OBS_UNIT_FK
 ]]></system-out>
 </testcase>
-<testcase name="projectCopyNeverOverwritesExistingContents()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.004">
+<testcase name="projectCopyNeverOverwritesExistingContents()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.005">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:projectCopyNeverOverwritesExistingContents()]
 display-name: projectCopyNeverOverwritesExistingContents()
@@ -140,13 +140,13 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: [9] units.tsv, parent_unit_id, P1, PARENT_CYCLE
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[13]" classname="org.plantcausal.core.ValidationServiceTest" time="0.002">
+<testcase name="rejectsInvalidFields(String, String, String, String)[13]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#13]
 display-name: [13] units.tsv, strategy_id, UNKNOWN, STRATEGY_FK
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[12]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[12]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#12]
 display-name: [12] units.tsv, unit_type, pot, ASSIGNMENT_LEVEL
@@ -164,13 +164,13 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: [10] units.tsv, parent_unit_id, UNKNOWN, PARENT_FK
 ]]></system-out>
 </testcase>
-<testcase name="builtinsWorkOutsideRepositoryWorkingDirectory()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.025">
+<testcase name="builtinsWorkOutsideRepositoryWorkingDirectory()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.03">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:builtinsWorkOutsideRepositoryWorkingDirectory()]
 display-name: builtinsWorkOutsideRepositoryWorkingDirectory()
 ]]></system-out>
 </testcase>
-<testcase name="guiLoadsPublicDemoAndUsesCoreValidation()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.293">
+<testcase name="guiLoadsPublicDemoAndUsesCoreValidation()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.279">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:guiLoadsPublicDemoAndUsesCoreValidation()]
 display-name: guiLoadsPublicDemoAndUsesCoreValidation()
@@ -182,37 +182,37 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: duplicateJsonKeysRejected()
 ]]></system-out>
 </testcase>
-<testcase name="parserRejectsDuplicateHeaderAndShortRow()" classname="org.plantcausal.core.ValidationServiceTest" time="0.005">
+<testcase name="parserRejectsDuplicateHeaderAndShortRow()" classname="org.plantcausal.core.ValidationServiceTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[method:parserRejectsDuplicateHeaderAndShortRow()]
 display-name: parserRejectsDuplicateHeaderAndShortRow()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[19]" classname="org.plantcausal.core.ValidationServiceTest" time="0.002">
+<testcase name="rejectsInvalidFields(String, String, String, String)[19]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#19]
 display-name: [19] treatments.tsv, stop, 0, INTERVAL
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[18]" classname="org.plantcausal.core.ValidationServiceTest" time="0.002">
+<testcase name="rejectsInvalidFields(String, String, String, String)[18]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#18]
 display-name: [18] treatments.tsv, start, -1, INTERVAL
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[17]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[17]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#17]
 display-name: [17] variables.tsv, data_type, float, VARIABLE_TYPE
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[16]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
+<testcase name="rejectsInvalidFields(String, String, String, String)[16]" classname="org.plantcausal.core.ValidationServiceTest" time="0.011">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#16]
 display-name: [16] variables.tsv, unit, NA, VARIABLE_UNIT
 ]]></system-out>
 </testcase>
-<testcase name="invalidDraftDoesNotCreateProjectCopy()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.004">
+<testcase name="invalidDraftDoesNotCreateProjectCopy()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:invalidDraftDoesNotCreateProjectCopy()]
 display-name: invalidDraftDoesNotCreateProjectCopy()
@@ -224,13 +224,13 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: tsvQuotesAreParsedAndReportIsDeterministic()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[15]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[15]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#15]
 display-name: [15] variables.tsv, role, confounder, VARIABLE_ROLE
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[14]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[14]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#14]
 display-name: [14] units.tsv, time_zero, 2026-02-30, TIME_ZERO
@@ -242,37 +242,37 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: schemaRejectsUnknownProtocolAndMissingRequiredField()
 ]]></system-out>
 </testcase>
-<testcase name="emptyExposureHistoryWarnsWithoutInventingAdherence()" classname="org.plantcausal.core.ValidationServiceTest" time="0.006">
+<testcase name="emptyExposureHistoryWarnsWithoutInventingAdherence()" classname="org.plantcausal.core.ValidationServiceTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[method:emptyExposureHistoryWarnsWithoutInventingAdherence()]
 display-name: emptyExposureHistoryWarnsWithoutInventingAdherence()
 ]]></system-out>
 </testcase>
-<testcase name="saveValidProtocolPreservesExtensionsAndUnknownFieldsAreRejected()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.008">
+<testcase name="saveValidProtocolPreservesExtensionsAndUnknownFieldsAreRejected()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.012">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:saveValidProtocolPreservesExtensionsAndUnknownFieldsAreRejected()]
 display-name: saveValidProtocolPreservesExtensionsAndUnknownFieldsAreRejected()
 ]]></system-out>
 </testcase>
-<testcase name="grassImportPreservesRowsAndMissingValues()" classname="org.plantcausal.core.BenchmarkImporterTest" time="0.209">
+<testcase name="grassImportPreservesRowsAndMissingValues()" classname="org.plantcausal.core.BenchmarkImporterTest" time="0.221">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.BenchmarkImporterTest]/[method:grassImportPreservesRowsAndMissingValues()]
 display-name: grassImportPreservesRowsAndMissingValues()
 ]]></system-out>
 </testcase>
-<testcase name="alteredSourceRejectedBeforeImport()" classname="org.plantcausal.core.BenchmarkImporterTest" time="0.023">
+<testcase name="alteredSourceRejectedBeforeImport()" classname="org.plantcausal.core.BenchmarkImporterTest" time="0.033">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.BenchmarkImporterTest]/[method:alteredSourceRejectedBeforeImport()]
 display-name: alteredSourceRejectedBeforeImport()
 ]]></system-out>
 </testcase>
-<testcase name="validPackageNeverClaimsCausality()" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="validPackageNeverClaimsCausality()" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[method:validPackageNeverClaimsCausality()]
 display-name: validPackageNeverClaimsCausality()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[22]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[22]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#22]
 display-name: [22] treatments.tsv, adherence, yes, ADHERENCE
@@ -284,19 +284,19 @@ unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceT
 display-name: duplicateRowsAndOverlapsRejected()
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[21]" classname="org.plantcausal.core.ValidationServiceTest" time="0.002">
+<testcase name="rejectsInvalidFields(String, String, String, String)[21]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#21]
 display-name: [21] treatments.tsv, dose, 3, DOSE_UNIT
 ]]></system-out>
 </testcase>
-<testcase name="rejectsInvalidFields(String, String, String, String)[20]" classname="org.plantcausal.core.ValidationServiceTest" time="0.003">
+<testcase name="rejectsInvalidFields(String, String, String, String)[20]" classname="org.plantcausal.core.ValidationServiceTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.core.ValidationServiceTest]/[test-template:rejectsInvalidFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#20]
 display-name: [20] treatments.tsv, stop, 91, INTERVAL
 ]]></system-out>
 </testcase>
-<testcase name="previewsHaveExplicitLimitAndKeepMissingValues()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.006">
+<testcase name="previewsHaveExplicitLimitAndKeepMissingValues()" classname="org.plantcausal.desktop.WorkspaceServiceTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:org.plantcausal.desktop.WorkspaceServiceTest]/[method:previewsHaveExplicitLimitAndKeepMissingValues()]
 display-name: previewsHaveExplicitLimitAndKeepMissingValues()

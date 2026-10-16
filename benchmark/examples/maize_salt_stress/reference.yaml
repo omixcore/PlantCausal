@@ -1,0 +1,7 @@
+benchmark: maize_salt_stress
+species: Zea mays
+treatment: salt_stress
+outcome: biomass
+covariates:
+  - genotype
+  - environment

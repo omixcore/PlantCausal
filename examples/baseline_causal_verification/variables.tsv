@@ -1,0 +1,4 @@
+variable_id	role	data_type	unit	definition	timing	missing_codes
+baseline_x1	baseline_confounder	number	arbitrary	Generated baseline predictor	before_first_treatment	NA
+baseline_x2	baseline_confounder	number	arbitrary	Generated baseline predictor	before_first_treatment	NA
+response	outcome	number	arbitrary	Generated continuous endpoint	day90	NA

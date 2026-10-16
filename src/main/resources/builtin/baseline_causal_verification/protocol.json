@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "trial_id": "SYNTHETIC_BASELINE_CAUSAL_240",
+  "title": "Synthetic baseline IPW/AIPW and missing-outcome verification",
+  "data_kind": "synthetic",
+  "target_trial": {
+    "population": "Generated independent units; not a biological trial",
+    "eligibility": "All generated units enrolled before the first decision",
+    "assignment_unit": "plot",
+    "analysis_unit": "plot",
+    "assignment": "Random assignment in the hypothetical target trial; the generated observational emulation depends on measured covariates",
+    "time_zero": "Synthetic allocation origin",
+    "time_unit": "d",
+    "followup_end": 90,
+    "strategies": [
+      {
+        "id": "A",
+        "description": "Synthetic baseline binary action 1"
+      },
+      {
+        "id": "B",
+        "description": "Synthetic baseline binary action 0"
+      }
+    ],
+    "outcome": {
+      "variable_id": "response",
+      "definition": "Synthetic response with known additive coefficient 2",
+      "time": 90,
+      "unit": "arbitrary"
+    },
+    "estimand": {
+      "population": "All generated units",
+      "contrast": "A-B",
+      "effect": "mean_difference",
+      "strategy_effect": "baseline_assignment",
+      "intercurrent_events": "None generated"
+    },
+    "analysis_plan": "IPW/AIPW using baseline_x1 and baseline_x2; explicit IPCW for missing endpoints"
+  },
+  "emulation": {
+    "design": "observational",
+    "eligibility_mapping": "units.tsv eligible=1; selection occurs before treatment",
+    "assignment_mapping": "Generated observational actions depend on recorded covariates; they do not represent randomization",
+    "time_zero_mapping": "Relative time zero is the first decision; baseline observations precede it",
+    "strategy_mapping": "treatments.tsv records verified actual binary actions over the specified intervals",
+    "outcome_mapping": "observations.tsv response at time=90, with explicit NA endpoint rows",
+    "followup_mapping": "Relative days 0 through 90; loss is recorded on the explicit time grid",
+    "estimand_mapping": "Baseline A minus B individual-unit average treatment effect",
+    "analysis_mapping": "Parametric propensity and outcome models; MAR outcome observation model; independent bootstrap",
+    "limitations": [
+      "Synthetic numerical verification only; no observed biological measurements"
+    ]
+  },
+  "identification": {
+    "exchangeability": "The generated data include measured common causes; real study identification still requires scientific review",
+    "positivity": "Fitted support is checked; probabilities are not clipped",
+    "consistency": "Binary actions and decision times are explicitly defined",
+    "interference": "Generated units do not interact; interference must be reviewed for real studies"
+  },
+  "missing_data_plan": "Generated endpoint missingness is handled only by an explicitly selected policy; no automatic fill or row dropping",
+  "provenance": {
+    "source_id": "SYNTHETIC",
+    "source_uri": "synthetic://baseline-causal-verification-240",
+    "source_location": "generated",
+    "license": "CC0-1.0",
+    "retrieved_at": "2026-10-12",
+    "transformations": "Synthetic numpy seed37115; independent statsmodels point-estimate reference in test resources"
+  },
+  "extensions": {}
+}

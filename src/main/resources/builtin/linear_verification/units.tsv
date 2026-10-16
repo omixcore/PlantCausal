@@ -1,0 +1,25 @@
+trial_id	unit_id	parent_unit_id	unit_type	assignment_unit_id	cluster_id	block_id	species	genotype	time_zero	eligible	strategy_id	source_id
+SYNTHETIC_OLS_024	U01	NA	plot	U01	U01	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U02	NA	plot	U02	U02	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U03	NA	plot	U03	U03	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U04	NA	plot	U04	U04	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U05	NA	plot	U05	U05	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U06	NA	plot	U06	U06	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U07	NA	plot	U07	U07	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U08	NA	plot	U08	U08	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U09	NA	plot	U09	U09	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U10	NA	plot	U10	U10	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U11	NA	plot	U11	U11	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U12	NA	plot	U12	U12	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U13	NA	plot	U13	U13	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U14	NA	plot	U14	U14	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U15	NA	plot	U15	U15	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U16	NA	plot	U16	U16	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U17	NA	plot	U17	U17	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U18	NA	plot	U18	U18	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U19	NA	plot	U19	U19	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U20	NA	plot	U20	U20	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U21	NA	plot	U21	U21	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U22	NA	plot	U22	U22	NA	synthetic species	synthetic genotype	2026-01-01	1	B	SYNTHETIC
+SYNTHETIC_OLS_024	U23	NA	plot	U23	U23	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC
+SYNTHETIC_OLS_024	U24	NA	plot	U24	U24	NA	synthetic species	synthetic genotype	2026-01-01	1	A	SYNTHETIC

@@ -1,0 +1,25 @@
+trial_id	assignment_unit_id	start	stop	strategy_id	exposure_name	dose	dose_unit	adherence	source_id
+SYNTHETIC_OLS_024	U01	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U02	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U03	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U04	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U05	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U06	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U07	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U08	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U09	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U10	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U11	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U12	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U13	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U14	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U15	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U16	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U17	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U18	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U19	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U20	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U21	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U22	0	90	B	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U23	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC
+SYNTHETIC_OLS_024	U24	0	90	A	synthetic assignment	NA	NA	adherent	SYNTHETIC

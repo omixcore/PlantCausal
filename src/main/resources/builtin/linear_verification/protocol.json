@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "trial_id": "SYNTHETIC_OLS_024",
+  "title": "Synthetic linear estimator verification (24 independent units)",
+  "data_kind": "synthetic",
+  "target_trial": {
+    "population": "Generated independent experimental units",
+    "eligibility": "All generated units, defined before treatment",
+    "assignment_unit": "plot",
+    "analysis_unit": "plot",
+    "assignment": "Balanced synthetic assignment; not biological observations",
+    "time_zero": "Synthetic allocation origin",
+    "time_unit": "d",
+    "followup_end": 90,
+    "strategies": [
+      {
+        "id": "A",
+        "description": "从第0至90天维持协议定义的充分灌溉"
+      },
+      {
+        "id": "B",
+        "description": "从第0至90天维持协议定义的限制灌溉"
+      }
+    ],
+    "outcome": {
+      "variable_id": "response",
+      "definition": "Synthetic response with known additive coefficient 2",
+      "time": 90,
+      "unit": "arbitrary"
+    },
+    "estimand": {
+      "population": "All generated units",
+      "contrast": "A-B",
+      "effect": "mean_difference",
+      "strategy_effect": "baseline_assignment",
+      "intercurrent_events": "None generated"
+    },
+    "analysis_plan": "Additive OLS with baseline_x adjustment; compare A minus B"
+  },
+  "emulation": {
+    "design": "randomized",
+    "eligibility_mapping": "units.tsv eligible；仅使用处理前记录",
+    "assignment_mapping": "units.tsv strategy_id 是观察分类，不是随机分配",
+    "time_zero_mapping": "units.tsv time_zero；0时观测先于首次处理",
+    "strategy_mapping": "需核对实际灌溉记录；本合成示例仅演示表结构",
+    "outcome_mapping": "observations.tsv variable_id=yield,time=90",
+    "followup_mapping": "第0天至90天；提前失访需记录原因",
+    "estimand_mapping": "拟估计持续策略效果；仅有基线分类不足以支持依从性分析",
+    "analysis_mapping": "Deterministic software verification; no scientific claim",
+    "limitations": [
+      "Synthetic data only; known numerical coefficient is not an observed biological effect"
+    ]
+  },
+  "identification": {
+    "exchangeability": "需评估基线与随时间变化的共同原因是否被测量",
+    "positivity": "在混杂变量各层检查两策略支持与权重分布",
+    "consistency": "明确剂量、持续时间与允许的策略版本",
+    "interference": "评估地块间水分流动；必要时定义缓冲区与暴露映射"
+  },
+  "missing_data_plan": "区分未测量、失访、检测限；不默认填0",
+  "provenance": {
+    "source_id": "SYNTHETIC",
+    "source_uri": "synthetic://linear-verification-24",
+    "source_location": "generated",
+    "license": "CC0-1.0",
+    "retrieved_at": "2026-10-12",
+    "transformations": "24 balanced rows: response=4+2*T+0.5*x+/-0.25; paired residuals cancel within each treatment and x stratum"
+  },
+  "extensions": {}
+}

@@ -1,0 +1,17 @@
+benchmark: maize_salt_stress
+version: 1.0
+species: Zea mays
+treatment:
+  name: salt_stress
+  intervention: NaCl
+outcome:
+  primary: biomass
+covariates:
+  - genotype
+  - environment
+workflow:
+  - validate
+  - generate_dag
+  - run_ols
+  - estimate_statistics
+  - export_report

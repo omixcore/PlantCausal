@@ -1,0 +1,3 @@
+variable_id	role	data_type	unit	definition	timing	missing_codes
+baseline_x	baseline_confounder	number	arbitrary	Generated pre-treatment covariate	before_first_treatment	NA
+response	outcome	number	arbitrary	Synthetic additive endpoint	day90	NA

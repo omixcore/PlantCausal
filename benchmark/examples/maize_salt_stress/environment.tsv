@@ -1,0 +1,5 @@
+sample	environment	salt_concentration
+S1	growth_chamber	0
+S2	growth_chamber	200
+S3	growth_chamber	0
+S4	growth_chamber	200

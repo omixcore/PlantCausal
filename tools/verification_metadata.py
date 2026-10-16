@@ -1,0 +1,12 @@
+"""Metadata shared by synthetic mathematical verification generators."""
+def standardize(protocol,kind,n):
+    longitudinal=kind!='baseline'
+    protocol['provenance']['source_uri']=f'synthetic://{kind}-causal-verification-{n}'
+    protocol['target_trial']['population']='Generated independent units; not a biological trial'
+    protocol['target_trial']['eligibility']='All generated units enrolled before the first decision'
+    protocol['target_trial']['assignment']='Random assignment in the hypothetical target trial; the generated observational emulation depends on measured covariates'
+    protocol['target_trial']['strategies']=[{'id':'A','description':'Synthetic binary action 1 at the decision; sustained regime applies action 1 at every grid point' if longitudinal else 'Synthetic baseline binary action 1'}, {'id':'B','description':'Synthetic binary action 0 at the decision; sustained regime applies action 0 at every grid point' if longitudinal else 'Synthetic baseline binary action 0'}]
+    protocol['emulation'].update(eligibility_mapping='units.tsv eligible=1; selection occurs before treatment',assignment_mapping='Generated observational actions depend on recorded covariates; they do not represent randomization',time_zero_mapping='Relative time zero is the first decision; baseline observations precede it',strategy_mapping='treatments.tsv records verified actual binary actions over the specified intervals',outcome_mapping='observations.tsv response at time=90, with explicit NA endpoint rows',followup_mapping='Relative days 0 through 90; loss is recorded on the explicit time grid',estimand_mapping='All-A versus all-B sustained static regimes' if longitudinal else 'Baseline A minus B individual-unit average treatment effect',limitations=['Synthetic numerical verification only; no observed biological measurements'])
+    protocol['identification'].update(exchangeability='The generated data include measured common causes; real study identification still requires scientific review',positivity='Fitted support is checked; probabilities are not clipped',consistency='Binary actions and decision times are explicitly defined',interference='Generated units do not interact; interference must be reviewed for real studies')
+    protocol['missing_data_plan']='Generated endpoint missingness is handled only by an explicitly selected policy; no automatic fill or row dropping'
+    return protocol

@@ -1,102 +1,88 @@
 # PlantCausal
 
-A causal inference framework for plant multi-omics using target trial emulation, causal discovery, and virtual intervention analysis.
+Java 17 desktop software for plant target-trial protocols, data validation and reproducible causal effect estimation under explicit identification assumptions.
 
-## Current implementation: Desktop 0.2.0
+## Run
 
-Java 17 桌面界面、数据模型、校验服务与首批公开数据 benchmark。以 PlantCausal Data Standard v1.0.0 草案为基础；本版本专注数据质量与设计审计，不输出因果效应。
+```bash
+mvn clean verify
+java -jar target/plantcausal-core-0.4.0.jar
+```
 
-## 在 IntelliJ IDEA 中打开界面
+Windows: double-click `start-PlantCausal.bat` with JDK 17+ and Maven installed. The packaged desktop ZIP or GitHub Actions executable JAR runs with Java 17+ without Maven.
 
-1. 克隆 https://github.com/omixcore/PlantCausal.git，打开根目录 pom.xml，作为 Maven 项目导入。
-2. Project SDK 设置为 JDK 17 或更高；等待 Maven 下载依赖。
-3. 打开 src/main/java/org/plantcausal/core/Main.java，直接运行 main，不填写 Program arguments，即打开桌面界面。填写 gui 也可以。
-4. 点击 Load demo 或 Load public data，界面会直接显示表格。
+## Desktop
 
-界面采用 Java Swing，支持 Windows/macOS/Linux 的图形桌面，无需安装 JavaFX。
+Open/load a project → review and save protocol → validate → **Analysis** → select estimator and missing-outcome policy → inspect estimates/weights → export to an empty folder outside the project.
 
-| 页面 | 功能 |
+- **Load estimator demo**: 24 independent synthetic units, OLS with `baseline_x`.
+- **Load causal demo**: 240 synthetic units, baseline IPW/AIPW and MAR missing outcomes; defaults to AIPW + IPCW with `baseline_x1,baseline_x2`.
+- **Load longitudinal demo**: 500 synthetic units on three decisions, actual strategy switches and endpoint dropout; defaults to MSM_IPW + IPCW with `baseline_z` and history `history_l`.
+
+These are numerical verification fixtures, not published biological observations. Public pine/grassland examples remain available for source-backed import and format validation; their true causal effects are unknown.
+
+## Estimators
+
+| Method | Supported target/design | Inference |
+|---|---|---|
+| `OLS` | Additive continuous endpoint contrast, independent units | Classical homoskedastic errors, Student-t with n-p df |
+| `CLUSTER_OLS` | Same additive model, documented correlated clusters/nested allocation | CR1 sandwich, t(G-1), finite-sample factor |
+| `IPW` | Baseline binary-strategy individual-unit ATE; logistic propensity | Hájek arm means; cluster bootstrap refits propensity/observation models |
+| `AIPW` | Baseline binary-strategy individual-unit ATE; logistic propensity + separate arm outcome regressions | Augmented estimator; cluster bootstrap refits every nuisance model |
+| `MSM_IPW` | Two static sustained regimes, A at every decision versus B at every decision, continuous endpoint | Sequential treatment/observation weights, Hájek regime means; cluster bootstrap |
+
+Adjustment uses prespecified numeric baseline variables and optional genotype/block indicators. Longitudinal models use prespecified numeric baseline and time-varying histories; genotype/block indicators must be explicitly encoded as baseline variables for that method. Logistic MLE is unpenalized, with rank, convergence, separation and overlap checks.
+
+Bootstrap defaults: 300 replicates, seed 20261013, overlap threshold 0.01. At least 200 replicates and 10 independent resampling clusters are required. Failed draws are not discarded or silently replaced. Bootstrap intervals are percentile intervals; p-values use a normal Wald approximation with the bootstrap standard error. They are not exact Student-t tests. More replicates and adequate cluster counts are advisable for final studies.
+
+## Missing outcomes
+
+| Policy | Behavior and interpretation |
 |---|---|
-| Overview | 打开项目、内置合成示例和公开松树数据 |
-| Protocol | 常用字段表单编辑、完整 JSON 编辑、协议保存 |
-| Data preview | 五种 TSV 表格预览、筛选与重新载入 |
-| Validation | 错误与警告表、单位和观测统计、JSON 报告导出 |
-| Benchmarks | 两项公开研究数据、DOI、许可及设计限制；草地 staging 预览 |
+| `FAIL` | Reject missing endpoints/covariates |
+| `COMPLETE_CASE` | Explicitly exclude missing endpoints and report counts; selected-sample association unless extra selection assumptions justify a population effect |
+| `IPCW` | IPW/AIPW: model endpoint observation given treatment and baseline. MSM: model next retention given pre-decision history and current treatment. Requires MAR/conditional independent censoring and observation positivity |
 
-Open project 选择含 protocol.json 和数据表的文件夹。内置示例加载到独立临时目录，使用 Save project as 保存到空文件夹以保留修改。表格当前只读；协议可编辑，TSV 可在外部编辑后 Reload。表格预览最多2000行，完整数据仍由核心校验器校验。
+Baseline/history covariate missingness is rejected. Death-truncated outcomes are not automatically treated as ordinary MAR missingness; define a suitable estimand. Multiple imputation is not implemented.
 
-后台线程执行导入与校验，处理期间按钮和协议编辑被禁用。未保存协议时不能校验；切换项目或关闭窗口前会提示未保存修改。导出报告会核对输入文件 SHA-256，拒绝导出已经过期的报告。
+## CLI
 
-## 构建和启动
-
-```sh
-mvn verify
-java -jar target/plantcausal-core-0.2.0.jar
+```bash
+java -jar target/plantcausal-core-0.4.0.jar --help
+java -jar target/plantcausal-core-0.4.0.jar validate examples/linear_verification
+java -jar target/plantcausal-core-0.4.0.jar analyze examples/linear_verification output/ols --covariates=baseline_x
+java -jar target/plantcausal-core-0.4.0.jar analyze examples/baseline_causal_verification output/aipw --estimator=AIPW --missing=IPCW --covariates=baseline_x1,baseline_x2
+java -jar target/plantcausal-core-0.4.0.jar analyze examples/longitudinal_verification output/msm --estimator=MSM_IPW --missing=IPCW --covariates=baseline_z --time-varying=history_l
 ```
 
-Windows 用户可以运行 start-PlantCausal.bat；脚本使用本地构建 JAR 或调用 Maven 构建，要求 Java 17。GitHub Actions 构建产物包括可执行 JAR；下载并解压后可用上述 java -jar 命令打开窗口。内置数据已在 JAR 中，无需依赖当前工作目录。
+Additional options: `--genotype`, `--block`, `--bootstrap=1000`, `--seed=123`, `--overlap=0.01`.
 
-原命令行继续支持：
+Public import commands:
 
-```sh
-java -jar target/plantcausal-core-0.2.0.jar validate examples/synthetic
-java -jar target/plantcausal-core-0.2.0.jar validate benchmark/standardized/PC_B001
+```bash
+java -jar target/plantcausal-core-0.4.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx output/pine
+java -jar target/plantcausal-core-0.4.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls output/grass
 ```
 
-CLI 将报告打印为 JSON。退出码：0=格式与关系校验通过（可有警告），1=校验不通过，2=用法错误。unitCount 仅为记录数，不代表独立重复数。无图形环境请使用 CLI。
+## Longitudinal input contract
 
-## 软件结构与接口
+Use schema-v1 tables and define `extensions.longitudinal.time_grid`, for example `[0,30,60,90]`. Grid starts at zero and ends at the primary endpoint. At each at-risk step there must be exactly one verified actual strategy interval `[grid[k],grid[k+1]]`. First actual strategy must agree with baseline strategy. Unknown adherence is rejected.
 
-| 类 | 作用 |
-|---|---|
-| Models | Protocol、TargetTrial、Estimand、ExperimentalUnit、VariableDefinition、Observation、TreatmentInterval、Event、ValidationReport |
-| PackageReader | 严格 JSON 与支持引号的 UTF-8 TSV 导入 |
-| ValidationService | 内置 JSON Schema 2020-12、关系与时间规则校验；可直接嵌入 GUI/服务 |
-| BenchmarkFetcher | 从 Zenodo 下载指定版本元数据与文件，验证仓库校验和与许可证 |
-| BenchmarkImporter | 对已审核源文件进行 SHA-256 固定的 Java Excel 转换 |
-| DesktopApp | 五个页面的 Java Swing 桌面界面 |
-| WorkspaceService | 内置示例、项目另存、协议保存、预览与报告导出 |
-| Main | 默认桌面启动，保留命令行入口 |
+For each selected history variable, provide one measurement strictly before the current decision and after the previous grid boundary; the initial measurement precedes time zero (or is explicitly declared before-first-treatment at zero). The model includes all these measured histories and all previous treatments. Post-decision values are rejected. Loss events must lie on grid boundaries. Exposure history stops after loss; retained subjects require a measured endpoint. There is no automatic survival analysis, dynamic-policy learning or censoring of deaths.
 
-```java
-var report = new ValidationService().validate(java.nio.file.Path.of("benchmark/standardized/PC_B001"));
-if (!report.schemaValid()) {
-    report.issues().forEach(System.out::println);
-}
-```
+## Export and reproducibility
 
-Protocol 用 typed records 保存核心协议，同时保留完整 JsonNode 以保存 emulation、identification、provenance 和 extensions。Protocol 的 JsonNode 可变，调用方不得改写它并视作已验证对象；重新调用校验服务验证任何更改。校验服务按调用重新读取文件，没有全局项目状态。表之间使用显式键，无行号隐式关联。
+Outputs include PDF, `analysis.json`, `coefficients.tsv`, individual diagnostics/weights, optional `sequential_weights.tsv`, and the exact six input files. JSON preserves software version, options, input SHA-256, IDs, target contrast, fitted nuisance coefficients, probabilities, weights, bootstrap draws, ESS and scientific warnings. Inputs are rechecked during analysis and export; changed parameters clear displayed estimates.
 
-## 校验范围
+The contrast is always first strategy minus second. OLS estimates and IPW/AIPW estimates retain their actual model/inference labels. The historical JSON property `tStatistics` contains the displayed statistic; for bootstrap methods it is a normal Wald statistic, not a Student-t statistic. Undefined/not-applicable R-squared is `null`.
 
-字段与类型、重复 JSON 键、重复 TSV 表头、行长度、主键、外键、策略 ID、来源 ID、嵌套单位循环、处理层级、共享处理一致性、ISO 日期、缺失原因、数值类型、单位、主要终点覆盖、暴露区间与重叠、事件时间均有校验。持续策略缺少实际暴露历史或依从性会警告。
+## Scientific limits
 
-所有结果的 designReviewed 与 analysisReady 均为 NOT_ASSESSED；当前版本没有人工签核流程，也没有因果估计器。schemaValid 同时包含格式与跨表规则，不表示识别假设成立。任意科学文本、表达式筛选、随机化真实性、未测混杂与有效样本量仍需人工评审。
+Format validation is not causal identification. Estimates require a defensible target trial, exchangeability (sequential for MSM), positivity, consistency, appropriate nuisance/model specification, and a justified interference/cluster structure. Cluster-robust variance corrects inference for correlation; it does not remove cluster-level confounding or interference bias. Doubly robust does not mean both nuisance models can be wrong.
 
-## 首批 benchmark
+The supported software workflow now includes baseline weighting, augmented estimation, cluster-robust inference, MAR observation weighting and static sustained-regime analysis. Dynamic regimes, survival/competing risks, multiple imputation, arbitrary multi-arm treatment, cross-fitted machine-learning nuisance models and automatic ontology/unit reconciliation remain outside scope. The maintained launcher is `org.plantcausal.core.Main` / `desktop.DesktopApp`; older standalone UI prototypes are compatibility scaffolding.
 
-- PC_B001：松树幼苗干旱/恢复实验；原始工作簿与标准化包均提供。280 个单株盆单位；第10/24天蒸腾与水势，以及处理前菌根类别，转成长表。
-- PC_B002：2014 年草地季节性干旱实验；已下载原始产量表，并转换为带真实收获日期的 staging 表。尚未定义可验证的处理起止映射，不能作为标准化因果输入。
-- examples/synthetic：仅用于软件正向/错误校验，不是真实公开数据，也不是论文结果。
-
-本版 benchmark 检查导入、缺失保留、逐值一致与设计限制；真实因果效应没有已知真值，不能用它评价估计器偏差/RMSE。后续算法 benchmark 应另加带已知效应的模拟或半合成数据，并明确生成机制。
-
-## 重建数据
-
-```sh
-java -jar target/plantcausal-core-0.2.0.jar fetch-benchmark benchmark/raw
-java -jar target/plantcausal-core-0.2.0.jar import-pine benchmark/raw/10100580/Mycorrhiza_exposure_drought.xlsx benchmark/standardized/PC_B001
-java -jar target/plantcausal-core-0.2.0.jar stage-grass benchmark/raw/4306840/181004_Biomass_2014.xls benchmark/staging/PC_B002
-```
-
-源文件内容更改后，固定 SHA-256 的转换器拒绝处理，必须重新评审并更新适配器。抓取服务验证当前仓库 MD5，适配器再验证固定 SHA-256。首次发布随包源文件已独立下载并验证；Java 在线抓取需要用户环境网络，本次主要验证离线转换与校验。
-
-## 草案兼容性说明
-
-先前草案要求 time_zero 为 ISO 日期；真实公开实验可能只公布相对天数。此首版实现允许 units.time_zero=NA，明确给出 UNKNOWN_CALENDAR_ZERO 警告，协议必须描述相对起点。此为草案的明确补充；没有捏造实际日期。严格要求绝对日期的下游服务应把此警告升级为阻断条件。
-
-v1.0 核心只支持 NA 缺失码；输入其他缺失码应先显式归一化并记录转换。策略 ID 的因果对比采用 A-B，两端 ID 不应包含连字符；多重/复合对比与多并行暴露尚未支持。暴露区间是 [start, stop)，没有实际浇水日志就不能从文字方案生成伪造的实际暴露区间。
-
-## 引用与许可
-
-详见 `benchmark/README.md`、`benchmark/catalog.json` 和各 record.json。公开数据为 CC BY 4.0，转载数据与转换版须保留作者、DOI 和修改说明。软件使用的第三方依赖保留在构建清单中；本仓库源码采用现有 MIT 许可证；公开研究数据仍按各自的 CC BY 4.0 许可使用，MIT 不替代数据许可。
+- [Data standard](DATA_STANDARD.md)
+- [Scientific audit](docs/SCIENTIFIC_AUDIT.md)
+- [0.4.0 verification](docs/VERIFICATION_0.4.0.md)
+- [Public data provenance](benchmark/README.md)

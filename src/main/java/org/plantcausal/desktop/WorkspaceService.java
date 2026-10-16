@@ -17,7 +17,7 @@ public final class WorkspaceService {
     public record Preview(List<String> columns,List<List<String>> rows,int totalRows) {}
     public record Snapshot(Path directory,String fingerprint,ValidationReport report) {}
     public Path builtin(String id) throws IOException {
-        if(!Set.of("synthetic","PC_B001").contains(id)) throw new IOException("Unknown built-in project");
+        if(!Set.of("synthetic","PC_B001","linear_verification","longitudinal_verification","baseline_causal_verification").contains(id)) throw new IOException("Unknown built-in project");
         Path dest=Files.createTempDirectory("plantcausal-"+id+"-");
         for(String file:FILES) try(var in=WorkspaceService.class.getResourceAsStream("/builtin/"+id+"/"+file)) {
             if(in==null) throw new IOException("Built-in file missing: "+file);
